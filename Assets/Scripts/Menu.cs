@@ -26,4 +26,9 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void PrivacyPolicy()
+    {
+        Application.OpenURL("https://jmcasebier.com/asteroid_belt_privacy_policy.html");
+    }
 }
